@@ -1,0 +1,66 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+body {
+    font-family: 'Bitter', serif;
+}
+div {
+    max-width: 50em;
+    margin: auto;
+}
+article {
+    line-height: 1.5em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+}
+
+li {
+    margin: 0.5em 0;
+    padding: 0;
+    display:inline-block;
+    width: 18%;
+    min-width: 9em;
+}
